@@ -1,0 +1,6 @@
+---
+- name: Run Jenkins Role
+  hosts: localhost
+  become: yes
+  roles:
+    - jenkins
